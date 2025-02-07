@@ -1,0 +1,18 @@
+
+int led=8;//ledi 8. pine bağladık ve tanımladık.
+
+
+void setup() {
+  
+  pinMode(led,OUTPUT);//çıkışın 8. pinden(led) olacağını belirttik.
+
+}
+
+void loop() {
+     
+  digitalWrite(led,HIGH);//ledin yanması için komut verdik.
+  delay(1000);//ledi 1 saniye ledi açık bıraktık.
+  digitalWrite(led,LOW);//ledin kapanması için komut verdik. 
+  delay(1000);//1 saniye ledi kapalı bıraktık.
+  
+}
